@@ -8,6 +8,10 @@ https://user-images.githubusercontent.com/61944452/135816568-400c5053-8a60-4af2-
 # Installation
 
 ```
+https://www.rust-lang.org/tools/install
+sudo apt-get install libasound2-dev
+nano ~/.bashrc
+export PKG_CONFIG_PATH="/usr/lib/pkgconfig:/usr/share/pkgconfig"
 cargo install rustyvibes
 ```
 
