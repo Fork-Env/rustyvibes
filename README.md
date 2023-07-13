@@ -10,9 +10,16 @@ https://user-images.githubusercontent.com/61944452/135816568-400c5053-8a60-4af2-
 ```
 https://www.rust-lang.org/tools/install
 sudo apt-get install libasound2-dev
+sudo apt-get install libxtst-dev
+
 nano ~/.bashrc
-export PKG_CONFIG_PATH="/usr/lib/pkgconfig:/usr/share/pkgconfig"
+export PKG_CONFIG_PATH=/usr/lib/pkgconfig:$PKG_CONFIG_PATH
 cargo install rustyvibes
+
+```
+# Rujukan
+```
+https://chat.openai.com/share/1285f5e1-18c5-4941-bd41-d47c58502eba
 ```
 
 # Usage
